@@ -7,12 +7,11 @@
 
 body{width: 100%;
     height: 100%;
-
 }
+
 .box{
     width: 100%;
     height: 360px;
-    background: #fafafa;
     margin-top: 50px;
 }
 .left {
@@ -129,3 +128,189 @@ body{width: 100%;
     margin-top: -70px;
     margin-left: 10px;
 }
+
+.logo{
+    margin-top: 25px;
+    float: left;
+}
+.Account{
+    float: right;
+    width: 100%;
+}
+.Account li{
+    display: inline-block;
+    margin-left: 5px;
+    float: right;
+}
+.Account li a{
+    color: #505050;
+    font-size: 11px;
+}
+.seach{
+    float: right;
+    color: #505050;
+    margin-top:20px;
+    margin-right: 20px;
+}
+.form-control:hover{
+    background: rgba(255,240,249,0.92);
+}
+.form-control{
+    border-style: none;
+    height: 20px;
+    width: 137.99px;
+    font-size: 12px;
+    border-radius: 0px;
+}
+.fa-search{
+    float: right;
+    margin-top: 21px;
+    color: #505050;
+    font-size: 12px;
+}
+.Menu li{ height: 28px;
+    float: left;
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 42px;
+}
+.Menu li a{
+    color: #202020;
+}
+.Menucon{
+    position: absolute;
+    top: 150%;
+    margin-top: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+    z-index: 999;
+    height: auto;
+    background: #fff;
+    border: 100px solid red;
+}.Menuconright{
+    position: absolute;
+    top: 50%;
+    visibility: hidden;
+    transition: all .3s;
+    z-index: 999;
+    height: auto;
+    background:#fff;
+    margin-left: -5px;
+}
+.Menucon li{
+    padding-bottom: 15px;
+    width: 100%;
+    height: auto;
+
+}
+.Menu> ul> li:hover> ul{
+    opacity: 1;
+    visibility: visible;
+    top:88%;
+    border: none;
+}.Menuright> ul> li:hover> ul{
+    opacity: 1;
+    visibility: visible;
+    top:36%;
+    }
+.TopMenu{
+    margin-top: -20px;
+    height: 37px;
+    color: #505050;
+}
+.Menucon li a{
+    text-decoration: none;
+     color: #505050;
+    margin-top: 5px;
+}.Menuconright li a{
+    text-decoration: none;
+     color: #505050;
+    margin-top: 5px;
+}
+.Menucon li a:hover{
+color: red;
+}.Menuconright li a:hover{
+color: red;
+}
+.Tieude> a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.col-xs-12> .Tieude> a:hover{
+    color: black;
+}
+.Tieude a{
+    font-size: 17px;
+         color: black;
+}
+.Tieude{
+    padding-top: 30px;
+}
+.Tieude1 a{
+    font-size: 17px;
+    color: black;
+    float: left;
+}
+.col-md-9{
+    height: 37px;
+}
+.Menucon1{
+    width: 400px;
+}
+.Sumcol12{
+    width: 400px;
+}
+.Menu-main{
+    width: 130%;
+    background: #fff    ;
+    margin-left: -310px;
+}
+.col-md-2> img{
+    margin-bottom: 15px;
+}
+.main p{ float: left;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.col-md-2>ul> li> a> p{
+    font-size: 18px;
+    margin-top: 25px;
+}
+.col-md-2 ul {
+    line-height: 12px;
+}
+.col-xs-12 .col-md-6> a> img{
+    margin-top: 50px;
+}
+.col-md-6> a:hover{
+    color: red;
+}
+.Q h4{
+    margin-top: 25px;
+    float: left;
+    margin-left: 10px;
+}.Q p{
+    float: left;
+    margin-left: 10px;
+}
+.Code{
+    width: 150px;
+    margin-top: 30px;
+    line-height: 10px;
+    margin-left: 10px;
+}
+.col-md-3 ul li {
+    font-size: 12px;
+    color: #202020;
+    float: right;
+    margin:0px 8px;
+    list-style: none;
+}
+.col-md-3 ul li a{
+    color: #202020;
+    text-decoration: none;
+}
+
+
