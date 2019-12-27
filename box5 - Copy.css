@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+body{width: 100%;
+    height: 100%;
+}
+.M1 li{
+    display: inline-block;
+    color: #999999;
+}
+.M1{
+    margin-bottom: 30px;
+}
+.M1 li a{
+    font-size: 12px;
+    color: #999999;
+}.M1 li a:hover{
+     color: #666;
+ }
+.M1 p{
+    font-size: 30px;
+}
+.Your{
+    font-size: 13px;
+}
+.SUMCONTINUE{
+    float: right;
+    margin-top: 150px;
+    background: #202020;
+    height: 40px;
+    border-radius: 4px;
+    width: 109px;
+    color: #202020;
+}
+.SUMCONTINUE:hover{
+    border: 1px solid #202020;
+    background: #ffffff;
+}.SUMCONTINUE:hover .continue{
+   color: #202020;
+}
+.SUMCONTINUE .continue{
+    color: #ffffff;
+    margin-top: 9px;
+}
+
+
