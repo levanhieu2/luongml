@@ -74,15 +74,15 @@ ul.sub_menu li a{
 ul.sub_menu > li > a{
     font-weight:bold;
     color: #8b8a85;}
+.sub_menu li{
+    list-style: none;
+}
 ul.sub_menu > li > ul > li{
     padding:5px 0px;
     border-bottom:dotted 1px #fff;}
 ul.sub_menu > li > ul > li:first-child{ padding-top:10px;}
 ul.sub_menu > li > ul > li:hover a{ font-weight:bold;}
 ul.sub_menu > li > ul{border-top: solid 1px #f38256; margin-top:10px;}
-ul li{
-    list-style: none;
-}
 
 #search-top{
     border-bottom: 0px solid #636363;
@@ -641,45 +641,36 @@ h4{
 }
 /* --------------------------------------------------------*/
 
-
-
 .M1 li{
     display: inline-block;
     color: #999999;
 }
-.M1{
-    margin-bottom: 30px;
-}
 .M1 li a{
-    font-size: 12px;
     color: #999999;
+    font-size: 12px;
 }.M1 li a:hover{
      color: #666;
  }
-.M1 p{
-    font-size: 30px;
-}
-.Your{
-    font-size: 13px;
-}
-.SUMCONTINUE{
-    float: right;
-    margin-top: 150px;
-    background: #202020;
-    height: 40px;
-    border-radius: 4px;
-    width: 109px;
-    color: #202020;
-}
-.SUMCONTINUE:hover{
-    border: 1px solid #202020;
-    background: #ffffff;
-}.SUMCONTINUE:hover .continue{
-   color: #202020;
-}
-.SUMCONTINUE .continue{
-    color: #ffffff;
-    margin-top: 9px;
-}
+.boxanh img{
+    margin-top: 10px;
+    margin-bottom: 50px;
 
-
+}
+.hol p{
+    color:#999999;
+    margin-top: 20px;
+}
+.row p a:hover{
+    color: red;
+}
+.row> img{
+    margin-top: 40px;
+}
+.row p a{
+    text-decoration: underline;
+    color: black;
+}
+.row p b{
+    color:red;
+    font-size: 16px;
+}

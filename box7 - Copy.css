@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Be Vietnam', sans-serif;
+}
 
 .language_switch{ float:left; margin: 0px;}
 .language_switch a{
@@ -68,15 +74,15 @@ ul.sub_menu li a{
 ul.sub_menu > li > a{
     font-weight:bold;
     color: #8b8a85;}
+.sub_menu li{
+    list-style: none;
+}
 ul.sub_menu > li > ul > li{
     padding:5px 0px;
     border-bottom:dotted 1px #fff;}
 ul.sub_menu > li > ul > li:first-child{ padding-top:10px;}
 ul.sub_menu > li > ul > li:hover a{ font-weight:bold;}
 ul.sub_menu > li > ul{border-top: solid 1px #f38256; margin-top:10px;}
-ul li{
-    list-style: none;
-}
 
 #search-top{
     border-bottom: 0px solid #636363;
@@ -632,4 +638,42 @@ h4{
 }
 .luu-y2 ul li{
     color: #222222;
+}
+/* --------------------------------------------------------*/
+
+.M1 li{
+    display: inline-block;
+    color: #999999;
+}
+.M1 li a{
+    color: #999999;
+    font-size: 12px;
+}.M1 li a:hover{
+     color: #666;
+ }
+.boxanh img{
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+ .hol p{
+    color:#999999;
+    margin-top: 20px;
+}
+.fa-map-marker-alt{
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.col-xs-12 .text-center b {
+    font-size: 16px;
+}
+.sx .col-md-6 p{
+    margin-left: -25px;
+}
+.col-12{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.color a:hover{
+    color: #337ab7;
 }
